@@ -1,0 +1,100 @@
+.list-room {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.hotel-details-container {
+  margin: 5rem;
+}
+
+.room {
+  /* width: 60%; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.buy-btn {
+  padding: 1rem;
+  width: 30rem;
+  border: 1px solid #3c204c;
+  border-radius: 3px;
+  background-color: #3c204c;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  transform: scale(1.05);
+}
+
+.room-img {
+  /* background-image: url("https://cf.bstatic.com/xdata/images/hotel/max500/454500835.jpg?k=66a2db0bed52a348559f6b775e9baecd5b9cc8b1ba031ea34ba704b05079681f&o="); */
+  width: 15rem;
+  height: 15rem;
+  background-size: cover; /* Adjust background size as needed */
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.left-div {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.room-info {
+  margin-top: 2rem;
+}
+
+.room-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.room-count {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.room-desc {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.room-high {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.room-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.right-div {
+  margin-top: 2rem;
+  /* justify-items: end; */
+}
+
+.cart-btn {
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 3px;
+  border: 1px solid #003b95;
+  background-color: #003b95;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cart-btn:hover {
+  transform: scale(1.1);
+}

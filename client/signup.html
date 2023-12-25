@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="../css/signup.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+
+  <body class="body-signup">
+    <div class="container1">
+      <div class="content">
+        <form action="../backend/adduser.php" method="POST">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Username</span>
+              <input type="text" name="username" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" name="full_name" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" name="email" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input type="password" name="password" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Address</span>
+              <input type="text" name="address" required />
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" name="submit" value="Signup" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

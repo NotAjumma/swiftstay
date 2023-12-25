@@ -1,0 +1,84 @@
+.hotel-body {
+  display: grid;
+  /* justify-items: center; */
+  /* align-items: center; */
+  padding: 3rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.hotel-container {
+  border: 1px solid grey;
+  padding: 1rem;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 0.5rem;
+  /* margin-bottom: 1rem; */
+  border-radius: 5px;
+  /* width: 25rem; */
+  width: 25%;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hotel-container:hover {
+  transform: scale(1.05);
+}
+
+.img-hotel {
+  background-image: url("https://cf.bstatic.com/xdata/images/hotel/square60/218647461.jpg?k=070b473a94d4786c01c885fb7bfd752a2dc01f54d613563a74854f839758e006&o=");
+  background-size: cover; /* Adjust background size as needed */
+  /* background-position: center center; Adjust background position as needed */
+  width: 60px; /* Adjust width as needed */
+  height: 60px; /* Adjust height as needed */
+}
+
+.hotel-name {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.hotel-address,
+.hotel-district,
+.hotel-distance {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.right-info {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+  margin-left: auto;
+  /* justify-items: baseline; */
+  /* top: 0; */
+}
+
+.review-score {
+  background-color: #003b95;
+  height: 1rem;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  /* line-height: 20px; */
+  font-family: "Roboto", sans-serif;
+}
+
+.review {
+  /* align-items: center; */
+  display: flex;
+}
